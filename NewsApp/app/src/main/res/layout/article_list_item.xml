@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/article_list_item_constraint_layout"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/round_right">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/article_list_item_img"
+            android:layout_width="85dp"
+            android:layout_height="85dp"
+            android:layout_marginLeft="5dp"
+            android:scaleType="centerCrop"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/article_list_item_constraint_layout"
+            app:layout_constraintTop_toTopOf="parent"
+            app:shapeAppearanceOverlay="@style/Circle"
+            app:strokeColor="@null"
+            app:srcCompat="@drawable/space" />
+
+        <TextView
+            android:id="@+id/article_list_item_title"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/text_primary"
+            android:text="aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+            android:textSize="24sp"
+            app:flow_verticalAlign="center"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/article_list_item_img"
+            app:layout_constraintTop_toTopOf="parent" />
+<!--
+        <ImageView
+            android:id="@+id/article_list_item_like"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_margin="10dp"
+            android:src="@drawable/like"
+            app:tint="#252525"
+            app:layout_constraintEnd_toStartOf="@+id/article_list_item_dislike"
+            app:layout_constraintBottom_toBottomOf="@+id/article_list_item_constraint_layout"/>
+        <ImageView
+            android:id="@+id/article_list_item_dislike"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_margin="10dp"
+            android:src="@drawable/dislike"
+            app:tint="#252525"
+            app:layout_constraintEnd_toEndOf="@+id/article_list_item_constraint_layout"
+            app:layout_constraintBottom_toBottomOf="@+id/article_list_item_constraint_layout"/>
+ -->
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>

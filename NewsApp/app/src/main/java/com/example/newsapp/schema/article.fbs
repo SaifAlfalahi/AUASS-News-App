@@ -1,0 +1,27 @@
+// article.fbs
+namespace com.example.newsapp.model;
+
+enum Status: byte {
+  APPROVED = 0,
+  REJECTED = 1,
+  PENDING = 2
+}
+
+table Image {
+  url: String;
+}
+
+table Article {
+  user : User;
+  status: Status;
+  id: int;
+  title: string;
+  text: string;
+  images: [Image];  // String vector to represent the image urls
+  author: string;
+  likes: int;
+  dislikes: int;
+  date: string;
+}
+
+root_type Article;

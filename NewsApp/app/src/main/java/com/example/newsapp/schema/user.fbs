@@ -1,0 +1,14 @@
+enum Type: byte {
+  REGULAR = 0,
+  ADMIN = 1
+}
+
+table User{
+    fname: string;
+    lname: string;
+    email: string;
+    password: string;
+    type: Type;
+}
+
+root_type User;

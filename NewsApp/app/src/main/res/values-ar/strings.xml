@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">News App</string>
+    <string name="auass_news">AUASS News</string>
+    <string name="news">أخبار</string>
+    <string name="login">"تسجيل"</string>
+    <string name="register">اشتراك</string>
+    <string name="email">الإيميل</string>
+    <string name="password">كلمة المرور</string>
+    <string name="name">الاسم</string>
+    <string name="incorrect_ep">اللإيميل أو كلمة المرور غير صحيحة</string>
+    <string name="dont_have_account">لم تسجل بعد؟</string>
+    <string name="email_exists">هذا الإيميل مستخدم</string>
+    <string name="en">EN</string>
+    <string name="ar">AR</string>
+    <string name="director_message">في البداية يسعدني أن أُرحب بكم في موقع الاتحاد العربي لعلوم الفضاء و الفلك الإلكتروني والذي تم انشاءه ليكون وسيلة تواصل مع جميع المختصين و الهواة في علوم الفضاء و الفلك في الوطن العربي و ارض الاغتراب، فيما يخص علوم الفضاء و الفلك و تطوير المفاهيم الثقافة الفلكية لدى مجتمعاتنا العربية و احياء التراث العربي و الاسلامي في العلوم عامة و علوم الفضاء و الفلك خاصة، لما بات لهذه العلوم من اهمية كبيرة في تطوير البنية التحتية في الدول العربية. هذا بالاضافة الى تبيان رؤية و رسالة الاتحاد عبر هذا الموقع و ايضاح الاجراءات و الانظمة التي يعمل من خلالها الاتحاد في نشر رسالته. إن إيمان الاتحاد العربي بدوره الرئيسي يدفعنا للسعي دائماً لتحقيق شراكة حقيقة مع بقية الجهات المعنية داخل الوطن العربي وخارجه وذلك من أجل انجاح الدور المناط به في تطوير علوم الفضاء والفلك في الوطن العربي ، يسعى الاتحاد الى ايجاد شراكات مع الجامعات العربية و العالمية و الهيئات الفلكية مترامية الاطراف لدعم البحث العلمي في علوم الفضاء و الفلك و توفير بعثات و منح دراسية ان امكن للباحثين في هذه العلوم. ستجد عزيزي الزائر لهذا الموقع المعلومة الكافية عن رسالة، رؤية ، نشاطات و مبادرات الاتحاد العربي و جميع الهيئات التابعة له الممتدة في ارجاء الوطن العربي. و قد حرص الاتحاد على مواكبة التطوير والإبداع بان تكون جميع وسائل الاتصال الالكترونية مع ادارة الاتحاد متاحة للجميع و سهلة الوصول على مدار الساعة. يسعدني في هذا المقام ان اشير الى الدور الكبير الذي يقوم به فريق تكنولوجيا المعلومات من جهد كبير في متابعة المحتوى لحظة بلحظة و كذلك اتصالاتهم و تواصلهم المستمر مع زوار الموقع و الاجابة على العديد من التساؤلات الفنية و تمرير الاسئلة العلمية لذوي الاختصاص فلهم كل الشكر التقدير. و في الختام نشكر جميع اعضاء مجلس الامناء على المتابعة الحثيثة للموقع. نستقبل مقترحاتكم حول الموقع  عبر البريد الإلكتروني</string>
+
+    <string name="top_news">أفضل الأخبار</string>
+    <string name="recent">آخر الأخبار</string>
+
+    <string name="about_us_1">The Arab Union for Astronomy and Space Sciences (AUASS) is an astronomical organization concerned with space and astronomy, headquartered in the Jordanian capital – Amman – officially established in 1998 at the invitation of the Jordanian Astronomical Society (JAS).
+        The Union has grown and developed rapidly in recent years and now includes more than 500 Arab scientists and researchers in   astronomy and space technology field.
+        AUASS has become one of the qualitative unions affiliated with the Council of Arab Economic Unity of the General Secretariat of the League of Arab States since 2001, as well as a member of the International Astronomical Union (IAU).
+        The Federal Supreme Council consists of the President, the Secretary General, and members representing the Arab countries that are members of the Union. The Union is chaired by Professor Hamid Majoul Al-Nuaimi, Secretary General Dr. Eng. Awni Al-Khasawneh, Director General of the Regional Center for Teaching Space Science and Technology.
+        The Union seeks to encourage interest in space and astronomy sciences in the Arab countries and to provide support to scientific institutions and societies, as well as to help amateur astronomers and Arab specialists in space and astronomy sciences.</string>
+    <string name="about_us_2_title">
+        The Union seeks to achieve the following goals:
+    </string>
+    <string name="about_us_2">
+        1. Work to advance the status of astronomical and space sciences, so that it can play its role in Arab society.\n
+        2. Preserving the Arab and Islamic astronomical heritage and highlighting its role in the advancement of human civilization.\n
+        3. Using the scientific methods to determine the beginnings of the lunar months and to enhance them by observation means.\n
+        4. Standardize the space and astronomy scientific terminology in the Arab world and encourage research, publishing, authoring and translation into Arabic.\n
+        5. Encourage communication with the Arab scientists and those in abroad.\n
+        6. Constructing optical and radio astronomical observatories in the Arab world and coordinating with international organizations.\n
+        7. Providing scientific advices in space and astronomy to institutions, bodies and individuals.\n
+        8. Study common scientific issues between Arab countries and exchange information and experiences in space and astronomy.\n
+    </string>
+    <string name="about_us_3_title">
+        The Union achieve these goals by:
+    </string>
+    <string name="about_us_3">
+        1. Encouraging scientific research and publishing as an essential means to achieve these goals.\n
+        2. Preparing specialized seminars, workshops and exhibitions.\n
+        3. Publish a periodical magazine concerned with Arab and Muslim heritage, general astronomical topics, space science, and everything new in these fields.\n
+        4. Establishing database concerned with experts, scientists and those interested – Arabs and foreigners – in space sciences, astronomy and astrophysics.\n
+        5. Establishing a specialized astronomical and space information base.\n
+        6. Contacting cooperating with international scientific and space institutions and societies.\n
+        7. Adopting the idea of establishing joint research centers in astronomy and space sciences.\n
+        8. Work to include astronomy and space sciences in school curricula.\n
+        9. Enriching the Arab library with astronomical books and periodicals, and encouraging specialists to write and translate from reputable sources.\n
+        10. Supporting scientific projects that contribute to achieving the Federation’s goals.\n
+        11. Cooperate with the federations and other Arab bodies all common interest fields.\n
+        12. Establish a financial fund to provide scholarships to Arab researchers in space sciences and astronomy.\n
+    </string>
+    <!--CD = Content Description-->
+    <string name="accept_cd">اقبل</string>
+    <string name="reject_cd">ارفض</string>
+    <string name="pending_articles_title">المقالات المرسلة</string>
+    <string name="publish_rules_title">قوانين النشر</string>
+    <string name="article_publish_rules">1. You need to add a title for the articleH.\n2. Please refrain from using plagiarized work.\n3. Do not upload the same articleH multiple times.\n4. Keep the articleH length below 2000 words please.\n5. Refrain from using colloquialisms.\n
+    </string>
+    <string name="publish_process">Your articleH will be sent for review, once the administrator decides that your articleH is suitable and does not contain any plagiarized or false material. It will be accepted and displayed for all other users to view.</string>
+
+
+    <string name="article_title_placeholder">عنوان المقال:</string>
+    <string name="article_upload">أرسل مقال</string>
+    <string name="article_preview">عرض المقال</string>
+    <string name="article_text">محتوى المقال</string>
+    <string name="image_button">اختر صورة</string>
+    <string name="title">العنوان</string>
+    <string name="upload_an_article">أرسل مقال</string>
+    <string name="auass_full">الاتحاد العربي للفلك وعلوم الفضاء</string>
+
+</resources>

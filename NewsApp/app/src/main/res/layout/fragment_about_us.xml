@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".AboutUs">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/auass_aboutus_banner" />
+
+        <TextView
+            android:id="@+id/about_us_text1"
+            android:layout_width="350dp"
+            android:textSize="24sp"
+            android:gravity="center_horizontal"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/dark"
+            android:layout_height="wrap_content"
+            android:text="@string/about_us_1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:textColor="@color/dark"
+            android:text="@string/about_us_2_title"
+            android:textSize="36sp"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:textStyle="bold"
+            />
+
+
+        <TextView
+            android:id="@+id/about_us_text2"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textSize="24sp"
+            android:paddingLeft="30dp"
+            android:gravity="left"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/dark"
+            android:text="@string/about_us_2" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:textColor="@color/dark"
+            android:text="@string/about_us_3_title"
+            android:textSize="36sp"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:textStyle="bold"
+            />
+
+
+        <TextView
+            android:id="@+id/about_us_text3"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textSize="24sp"
+            android:gravity="left"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/dark"
+            android:text="@string/about_us_3" />
+
+    </LinearLayout>
+</ScrollView>

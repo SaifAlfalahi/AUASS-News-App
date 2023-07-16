@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/card_layout"
+    android:clickable="true"
+    android:layout_width="250dp"
+    android:layout_height="200dp"
+    android:layout_marginLeft="10dp"
+    android:background="@drawable/round_corner_20">
+
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/article_card_img"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/space"
+        app:strokeColor="@null"
+        app:shapeAppearanceOverlay="@style/RoundedSquare_20"/>
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:srcCompat="@drawable/shade"
+        app:strokeColor="@null"
+        app:shapeAppearanceOverlay="@style/RoundedSquare_20"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="6dp"
+        android:gravity="bottom|center"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <TextView
+            android:id="@+id/article_card_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="New Telescope Footage"
+            android:textSize="20dp"
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            android:layout_weight="1"/>
+
+        <!--
+        <ImageView
+            android:id="@+id/article_card_like"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:src="@drawable/like"
+            android:layout_weight="3"/>
+        <ImageView
+            android:id="@+id/article_card_dislike"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:src="@drawable/dislike"
+            android:layout_weight="3"/>
+        -->
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
