@@ -16,5 +16,5 @@ dependencyResolutionManagement {
         jcenter()
     }
 }
-rootProject.name = "News App"
+rootProject.name = "NewsApp"
 include ':app'
